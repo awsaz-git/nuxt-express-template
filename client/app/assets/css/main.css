@@ -1,0 +1,24 @@
+:root {
+    --bg-primary: #FFFFFF;
+    --color: #000000;
+}
+
+.dark-mode {
+    --bg-primary: #000000;
+    --color: #FFFFFF;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100vw;
+
+    background-color: var(--bg-primary);
+    color: var(--color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
