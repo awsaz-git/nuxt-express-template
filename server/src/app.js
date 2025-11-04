@@ -9,7 +9,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
     try {
-        res.status(200).json({ data: 'NIGGA' })
+        res.status(200).json({ data: 'Server running' })
     } catch (error) {
         res.status(500).json({ error: error })
     }
